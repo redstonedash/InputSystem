@@ -581,7 +581,7 @@ namespace UnityEngine.InputSystem
             {
                 // We're allowed to produce split-screens with aspect ratios different from the screen meaning
                 // that we always add one more column before finally adding an entirely new row.
-                numDivisionsY -= 1;
+                numDivisionsX -= 1;
             }
 
             // Assign split-screen area to each player.
